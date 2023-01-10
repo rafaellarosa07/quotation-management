@@ -17,3 +17,8 @@ MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=bootdb -p 3306:3306
 *docker image build -t inatel .
 
 *docker run -p 8081:8081 inatel --network=inatel
+
+
+
+
+PS*(EU PODERIA TER CRIADO UM DOCKER-COMPOSE PARA GERENCIAR ESSAS IMAGENS, MAS NÃO DEU TEMPO)
